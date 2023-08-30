@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+}
+.employee-form {
+    margin-bottom: 20px;
+    width: 500px;
+}
+.employee-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+.employee-form input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.validation-error {
+    color: red;
+    display: none;
+}
+.form-action-buttons {
+    text-align: center;
+}
+.employees-table {
+    width: 80%;
+}
+table.list {
+    width: 100%;
+    border-collapse: collapse;
+}
+table.list th,
+table.list td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+table.list th {
+    background-color: #f2f2f2;
+}
+.delete-button {
+    color: #ff0000;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+.form-action-buttons{
+    color: rgb(135, 213, 251);
+}
